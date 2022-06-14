@@ -9,6 +9,12 @@
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.github.jsltplugin.services.MyApplicationService"/>
         <projectService serviceImplementation="com.github.jsltplugin.services.MyProjectService"/>
+
+        <fileType name="Jslt File"
+                  implementationClass="com.gitub.jsltplugin.JSLTFileType"
+                  fieldName="INSTANCE"
+                  language="JSLT"
+                  extensions="jslt"/>
     </extensions>
 
     <applicationListeners>

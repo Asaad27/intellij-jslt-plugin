@@ -9,3 +9,4 @@ class MyProjectService(project: Project) {
         println(MyBundle.message("projectService", project.name))
     }
 }
+
