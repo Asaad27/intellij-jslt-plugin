@@ -1,9 +1,9 @@
-package com.github.asaad27.intellijjsltplugin.listeners
+package com.github.jsltplugin.listeners
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.asaad27.intellijjsltplugin.services.MyProjectService
+import com.github.jsltplugin.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 
