@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.asaad27.intellijjsltplugin</id>
-    <name>intellij-jslt-plugin</name>
+    <id>com.GitHub.jsltplugin</id>
+    <name>Jslt</name>
     <vendor>asaad27</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.asaad27.intellijjsltplugin.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.asaad27.intellijjsltplugin.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.github.jsltplugin.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.jsltplugin.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.asaad27.intellijjsltplugin.listeners.MyProjectManagerListener"
+        <listener class="com.github.jsltplugin.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

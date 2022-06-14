@@ -1,7 +1,7 @@
-package com.github.asaad27.intellijjsltplugin.services
+package com.github.jsltplugin.services
 
 import com.intellij.openapi.project.Project
-import com.github.asaad27.intellijjsltplugin.MyBundle
+import com.github.jsltplugin.MyBundle
 
 class MyProjectService(project: Project) {
 

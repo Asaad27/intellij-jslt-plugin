@@ -1,4 +1,4 @@
-package com.github.asaad27.intellijjsltplugin
+package com.github.jsltplugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
