@@ -1,5 +1,10 @@
 # intellij-jslt-plugin
 
+https://github.com/Asaad27/intellij-jslt-plugin.git
+
+JSLT documentation : 
+https://github.com/schibsted/jslt
+
 ![Build](https://github.com/Asaad27/intellij-jslt-plugin/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
